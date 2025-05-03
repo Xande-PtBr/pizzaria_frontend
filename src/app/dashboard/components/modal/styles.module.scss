@@ -1,0 +1,104 @@
+.dialogContainer{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0, 0.50 );
+  z-index: 998;
+  overflow: auto;
+  padding: 0 16px;
+  backdrop-filter: blur(4px);
+
+}
+
+.dialogContent{
+  position: absolute;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--dark-700);
+    /* padding: 16px; */
+  border-radius: 8px;
+  color: var(--white);
+
+}
+
+.container{
+  padding: 0px 24px 24px;
+}
+
+.textDetail{
+  position: relative;
+  max-width: 500px;
+  height: 30px;
+  align-items: start;
+  left: 0;
+  top: 0;
+  border-radius: 8px 8px 0 0;
+  background: linear-gradient(to right, var(--dark-900 ), var(--green-901 ), var(--dark-700));
+  padding-left: 16px;
+  line-height:28px;
+  /* filter:brightness(0.9); */
+ 
+
+}
+
+.table{
+  position: relative;
+  background-color: var(--dark-900);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 18px;
+  top: -20px;
+}
+
+.dialogBack{
+  max-width: 500px;
+  background-color: transparent;
+  position: relative;
+  right: -462px;
+  top: -35px;
+  border: 0;
+  color: #ff3f4b;
+  z-index: 999;
+}
+
+.containerItem{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-size: 16px;
+
+  span{
+    margin: 2px 0;   
+    
+  }
+}
+
+.description{
+  color: #ccc;
+  margin-top: 4px;
+  color: var(--gray-100);
+}
+
+.buttonOrder{
+  width: 100%;
+  background-color: var(--green-900);
+  padding:  8px;
+  margin-top: 18px;
+  border-radius: 6px;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--dark-700);
+   
+}
+
+.valueTotal{
+  margin:32px 0 16px 0;
+  
+}
